@@ -1,45 +1,76 @@
-# syntecxhub_Sales-Performance-Dashboard
-# Sales Performance Dashboard
+# 📊 Sales Performance Dashboard
 
-## 📊 Project Overview
+> An interactive Business Intelligence dashboard built with Microsoft Power BI to analyze sales performance, profitability, regional trends, product categories, and customer segments.
 
-This project presents an interactive **Sales Performance Dashboard** developed using **Microsoft Power BI**.
+---
 
-The dashboard analyzes sales, profit, quantity, products, categories, regions, segments, and time-based performance to provide meaningful business insights and support data-driven decision-making.
+## 👨‍💻 Author
+
+### Nouman Anjum
+
+**BSCS Student | Data Analyst | Data Scientist | Programmer**
+
+📍 Islamabad, Pakistan
+
+🔗 **GitHub:** [noumananjum-web](https://github.com/noumananjum-web)
+
+🔗 **LinkedIn:** [Nouman Anjum](https://www.linkedin.com/)
+
+---
+
+## 📌 Project Overview
+
+The **Sales Performance Dashboard** is an interactive Power BI project designed to transform raw sales data into meaningful business insights.
+
+The dashboard provides a comprehensive view of:
+
+- Sales performance
+- Profitability
+- Quantity sold
+- Regional performance
+- State and city performance
+- Category and sub-category performance
+- Customer segment performance
+- Yearly and quarterly trends
+
+The objective is to help businesses monitor performance and make data-driven decisions.
 
 ---
 
 ## 🎯 Project Objectives
 
-The main objectives of this project are:
+The main objectives of this project are to:
 
 - Import and preprocess the raw sales dataset
-- Remove duplicate and null records
-- Analyze monthly, quarterly, and yearly sales trends
-- Identify top-performing and low-performing products
-- Compare sales performance across regions
-- Analyze category and sub-category performance
-- Monitor key business KPIs
+- Clean the dataset by handling duplicates and missing values
+- Analyze yearly and quarterly sales trends
+- Analyze sales and profit performance
+- Compare regional and state-level performance
+- Identify category and sub-category performance
+- Analyze customer segment contribution
+- Create meaningful KPIs
 - Build an interactive Power BI dashboard
-- Generate actionable business insights
+- Provide actionable business insights
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-- **Microsoft Power BI**
-- **Power Query**
-- **DAX**
-- **Data Visualization**
-- **Data Cleaning & Transformation**
+| Tool | Purpose |
+|---|---|
+| **Microsoft Power BI** | Dashboard & visualization |
+| **Power Query** | Data cleaning & transformation |
+| **DAX** | Measures & calculations |
+| **Microsoft Excel / CSV** | Dataset |
+| **GitHub** | Project documentation & version control |
 
 ---
 
-## 🧹 Data Cleaning & Preprocessing
+## 🧹 Data Preparation
 
-The raw sales dataset was prepared using Power Query.
+The raw sales dataset was prepared before visualization and analysis.
 
-The following preprocessing activities were performed:
+### Data Cleaning Activities
 
 - Removed duplicate records
 - Handled missing/null values
@@ -47,38 +78,42 @@ The following preprocessing activities were performed:
 - Standardized date fields
 - Validated numerical fields
 - Prepared data for time-based analysis
-- Created a structured data model for reporting
+- Structured the dataset for Power BI reporting
 
 ---
 
-## 📈 Dashboard Pages
+# 📊 Dashboard
 
-### Page 1 — Sales Dashboard
+The Power BI dashboard consists of **three analytical pages**.
 
-The Executive Sales Dashboard provides a high-level overview of business performance.
+---
 
-**Key KPIs:**
+## 1️⃣ Sales Dashboard
 
-- Total Revenue: **$34.7M**
-- Total Profit: **$13.26M**
-- Total Quantity Sold: **90K**
+The main dashboard provides an executive overview of sales performance.
 
-**Visualizations include:**
+### Key Performance Indicators
 
-- Yearly Sales & Profit
-- Quarterly Sales
+- **Total Revenue:** $34.7M
+- **Total Profit:** $13.26M
+- **Total Quantity Sold:** 90K
+
+### Visualizations
+
+- Sales and Profit by Year
+- Sales by Year and Quarter
 - Sales by State
-- Sales & Profit by Segment
-- Sales & Profit by Category
+- Sales and Profit by Segment
+- Sales and Profit by Category
 - Order Date slicer
 
 ---
 
-### Page 2 — Region & State Level Analysis
+## 2️⃣ Region & State Level Analysis
 
-This page focuses on geographical and regional performance.
+This page focuses on geographical performance.
 
-**Analysis includes:**
+### Analysis Includes
 
 - Region-wise performance
 - State-wise sales
@@ -86,91 +121,126 @@ This page focuses on geographical and regional performance.
 - Sales by State and Category
 - Profit by Year and Category
 - Sales by Segment
-- Year and Region slicers
+- Region filter
+- State filter
+- Year filter
 
 ---
 
-### Page 3 — Category & Sub-Category Analysis
+## 3️⃣ Category & Sub-Category Analysis
 
-This page provides detailed product category analysis.
+This page provides detailed product and category analysis.
 
-**Analysis includes:**
+### Analysis Includes
 
 - Category performance
 - Sub-category performance
 - Sales, Quantity and Profit by Sub-category
-- Sales & Profit by Region and Segment
+- Sales and Profit by Region and Segment
 - Quantity and Sales by Segment
 - Profit by Year and Quarter
 - Sales by Year and Quarter
+- Category and Sub-category filters
 
 ---
 
-## 📊 Key Business KPIs
+# 📈 Key KPIs
 
-The dashboard tracks important performance indicators such as:
-
-| KPI | Value |
+| KPI | Result |
 |---|---:|
-| Total Revenue | $34.7M |
-| Total Profit | $13.26M |
-| Total Quantity Sold | 90K |
+| 💰 Total Revenue | **$34.7M** |
+| 📈 Total Profit | **$13.26M** |
+| 📦 Total Quantity Sold | **90K** |
 
 ---
 
-## 🔍 Key Insights
+# 🔍 Business Analysis
 
-The dashboard helps identify:
+The dashboard enables management to evaluate:
 
-- Overall revenue and profitability trends
-- Year-over-year sales performance
+### Sales Performance
+- Yearly sales trends
 - Quarterly sales patterns
-- Regional and state-level sales differences
-- Category and sub-category performance
-- Segment contribution to total sales
-- High-performing and underperforming product areas
-- Changes in profitability across time
+- Overall revenue performance
+
+### Profitability
+- Yearly profit trends
+- Category-level profitability
+- Sub-category profitability
+
+### Regional Performance
+- Region-wise sales
+- State-level performance
+- City-level quantity and profit
+
+### Customer Segments
+- Consumer performance
+- Corporate performance
+- Home Office performance
+
+### Product Performance
+- Category contribution
+- Sub-category performance
+- Sales and quantity relationships
 
 ---
 
-## 💡 Business Recommendations
+# 🎨 Interactive Dashboard Features
 
-Based on the analysis, businesses can:
+The dashboard provides interactive filtering through:
 
-- Focus on high-performing regions and categories
-- Monitor low-profit and underperforming products
-- Investigate categories with strong sales but weak profitability
-- Optimize product and regional strategies
-- Track quarterly and yearly performance regularly
-- Use dashboard filters to identify specific performance gaps
-- Prioritize profitable customer segments
+- Region slicer
+- State slicer
+- Category slicer
+- Sub-category slicer
+- Year slicer
+- Order Date slicer
+- Cross-filtering between visualizations
 
----
-
-## 🎨 Dashboard Features
-
-The Power BI dashboard includes interactive:
-
-- Region filters
-- State filters
-- Category filters
-- Sub-category filters
-- Year filters
-- Date slicers
-- Cross-filtering between visuals
-
-These features allow users to explore the data dynamically.
+Users can select different filters to explore specific areas of the business.
 
 ---
 
-## 📁 Project Files
+# 💡 Business Value
+
+This dashboard can help decision-makers:
+
+- Monitor overall sales performance
+- Identify profitable business areas
+- Compare regional performance
+- Understand category contribution
+- Analyze customer segments
+- Detect performance changes over time
+- Support data-driven business decisions
+
+---
+
+# 📷 Dashboard Preview
+
+### Sales Dashboard
+
+![Sales Dashboard](screenshots/sales-dashboard.png)
+
+### Region & State Level Analysis
+
+![Region & State Analysis](screenshots/region-state-analysis.png)
+
+### Category & Sub-Category Analysis
+
+![Category & Sub-Category Analysis](screenshots/category-subcategory-analysis.png)
+
+---
+
+# 📁 Project Structure
 
 ```text
 Sales-Performance-Dashboard/
 │
 ├── Sales_Performance_Dashboard.pbix
 ├── README.md
-└── screenshots/
+│
+└── superstore_sales_cleaned.csv
+|__ superstore_raw.csv
     ├── sales-dashboard.png
     ├── region-state-analysis.png
     └── category-subcategory-analysis.png
